@@ -1,0 +1,181 @@
+@font-face {
+    font-family: Tommy-medium-font;
+    src: url(Tommy/MADE\ TOMMY\ Medium_PERSONAL\ USE.otf)
+}
+
+@font-face {
+    font-family: Tommy-thin-font;
+    src: url(Tommy/MADE\ TOMMY\ Thin_PERSONAL\ USE.otf)
+}
+
+@font-face {
+    font-family: Tommy-light-font;
+    src: url(Tommy/MADE\ TOMMY\ Light_PERSONAL\ USE.otf)
+}
+
+@font-face {
+    font-family: Tommy-regular-font;
+    src: url(Tommy/MADE\ TOMMY\ Regular_PERSONAL\ USE.otf )
+}
+
+.header{
+    position: fixed; 
+    width: 100%; 
+    z-index: 1;
+    color: #452c63;
+    background-color:#D3D8E8;
+}
+
+#home-section{
+    padding-top: 8em; 
+    padding-bottom: 5em; 
+    background-image: url('home-backgroun.jpg'); 
+    height: 100%; 
+    width: 100%;
+}
+.name{
+   text-decoration: none;
+   text-transform: uppercase;
+   background-image: linear-gradient(
+    -225deg,
+    #b97ede 0%,
+    #2e47ad 29%,
+    #b97ede 67%,
+    #826fcb 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 6s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+#profile-image{
+    width: 100%;
+    max-width: 400px;
+    height: fit-content;
+}
+
+/* About Section*/
+
+.about-background{
+    background-color: #D3D8E8;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+/* About Section End*/
+
+/* Service section */
+
+.services{
+    background: linear-gradient(white, #D3D8E8);
+    padding-top: 5em;
+}
+.services .icon-box {
+    padding: 60px 30px;
+    transition: all ease-in-out 0.3s;
+    background: #fefefe;
+    box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
+    border-radius: 18px;
+    border-bottom: 5px solid #fff;
+  }
+  .services .icon-box .icon {
+    width: 64px;
+    height: 64px;
+    background: #D3D8E8;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: ease-in-out 0.3s;
+    color: rgb(0, 0, 0);
+  }
+  .services .icon-box .icon i {
+    font-size: 28px;
+  }
+  .services .icon-box h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+  .services .icon-box h4 a {
+    color: #282828;
+    transition: ease-in-out 0.3s;
+  }
+  .services .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .services .icon-box:hover {
+    transform: translateY(-10px);
+    border-color: #452c63;
+  }
+  .services .icon-box:hover h4 a {
+    color: #452c63;  
+  }
+
+  
+/* End Service section */
+
+/* Experience Section */
+
+#experience-section{
+    background: linear-gradient(#D3D8E8, white );
+}
+
+/* Experience Section End */
+
+/* Contact Section */
+.button-sub{
+  width: 100%;
+  background-image: linear-gradient(
+    -225deg,
+    #b97ede 0%,
+    #2e47ad 29%,
+    #b97ede 67%,
+    #826fcb 100%
+  );
+}
+/* Contact Section End */
+
+#container-section{
+    background-color:#D3D8E8;
+    
+}
+
+.font-medium{
+    font-family: Tommy-medium-font;
+}
+
+.font-thin{
+    font-family: Tommy-thin-font
+}
+
+.font-light{
+    font-family: Tommy-light-font;
+}
+.font-regular{
+    font-family: Tommy-regular-font;
+}
+.new-font{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
