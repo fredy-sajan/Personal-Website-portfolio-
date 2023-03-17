@@ -1,3 +1,3 @@
 # Personal-Website-portfolio
 
-* A personal website UI 
+It's just Static Portfolio Website using HTML, CSS and litle bit of JavaScript 
